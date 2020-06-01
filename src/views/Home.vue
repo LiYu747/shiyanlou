@@ -1,5 +1,6 @@
 <template>
  <div class="box flex-d al-center">
+   <div>这是home</div>
          <Navone></Navone>
          <Two></Two>
  </div>
