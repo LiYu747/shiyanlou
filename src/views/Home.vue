@@ -1,14 +1,17 @@
 <template>
  <div class="box flex-d al-center">
-   <div>这是home</div>
+   
          <Navone></Navone>
          <Two></Two>
+         <Twoimg></Twoimg>
  </div>
 </template>
 
 <script>
 import Navone from '../components/home/navone/Navone'
 import Two from '../components/home/navone/Two'
+import Twoimg from '../components/home/t-img/Twoimg'
+
 
  export default {
    name: '',
@@ -16,7 +19,8 @@ import Two from '../components/home/navone/Two'
    },
    components: {
         Navone,
-        Two
+        Two,
+        Twoimg
    },
    data () {
      return {
