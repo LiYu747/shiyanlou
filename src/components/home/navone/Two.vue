@@ -32,6 +32,7 @@
             class="mag"
             style=" width: 250px;height: 40px;"
           />
+          <i class="iconfont icon-sousuosearch82 logo"></i>
         </div>
       </div>
     </div>
@@ -112,5 +113,11 @@ export default {
   color: rgb(8, 191, 145);
   display: flex;
   align-items: center;
+}
+.logo{
+  font-size: 30px;
+  position: relative;
+  top: 8px;
+  left: -40px;
 }
 </style>

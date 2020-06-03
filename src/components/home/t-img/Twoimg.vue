@@ -30,7 +30,7 @@ import Tigimg from '../t-img/t-son/Tigimg'
           `http://120.78.14.107/api/v2/index/categories`
         )
         .then(res => {
-         console.log(res.data)
+        
           this.msg = res.data;
         })
         .catch(err => {
