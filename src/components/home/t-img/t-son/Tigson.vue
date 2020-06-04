@@ -1,5 +1,7 @@
 <template>
-  <div class="center pos-rel">
+  
+    <div>
+      <div class="jucen pos-rel">
     <div class="box  flex-d al-center">
       <div class="mar-t2 aa flex al-center pos-rel" v-for="(item,index) in msg" :key="index">
         <div class="jack m-l2">
@@ -32,10 +34,13 @@
       </div>
       <div class="flex ju-center al-center m-t2 jnj fz-14">经营专区</div>
     </div>
-  </div>
+       </div>
+     
+</div>
 </template>
 
 <script>
+
 export default {
   name: "",
   props: {
@@ -43,28 +48,39 @@ export default {
       type: Array
     }
   },
-  components: {},
-  data() {
-    return {};
+  components: {
+    
   },
-  methods: {},
-  mounted() {},
+  data() {
+    return {
+      
+    };
+  },
+  methods: {
+    
+  },
+  mounted() {
+    
+  },
   watch: {},
   computed: {}
 };
 </script>
 
 <style scoped lang='scss'>
-.center {
-  width: 1200px;
-}
+
+
+
+
 .box {
   width: 300px;
-  height: 650px;
+  height: 526px;
   background:   rgba(225,225,225,0.3);
   position: absolute;
-  left: 0;
+  left: 158px;
+  top: 0px;
   color: white;
+  z-index: 999;
 }
 .no-box {
   width: 500px;

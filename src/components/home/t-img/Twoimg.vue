@@ -1,14 +1,20 @@
 <template>
- <div class="tem-box flex-d al-center">
-      <Tigson :msg='msg'></Tigson>
-      <Tigimg></Tigimg>
+ <div class="tem-box pos-rel flex ju-center">
+     <Tigson :msg='msg'></Tigson> 
+    <LUNb>  </LUNb>
+   
+
+    
+      
+      
  </div>
 </template>
 
 <script>
 import axios from "axios";
 import Tigson from '../t-img/t-son/Tigson'
-import Tigimg from '../t-img/t-son/Tigimg'
+import LUNb from '../t-img/t-son/LUNb'
+
  export default {
    name: '',
    props: {
@@ -16,7 +22,8 @@ import Tigimg from '../t-img/t-son/Tigimg'
    },
    components: {
        Tigson,
-       Tigimg
+       LUNb,
+      
    },
    data () {
      return {
@@ -51,8 +58,7 @@ import Tigimg from '../t-img/t-son/Tigimg'
 </script>
 
 <style scoped lang='scss'>
-.tem-box{
-  width: 100%;
-  
-}
+ .tem-box{
+   width: 100%;
+ }
 </style>

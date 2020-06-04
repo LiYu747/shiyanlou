@@ -4,6 +4,7 @@
          <Navone></Navone>
          <Two></Two>
          <Twoimg></Twoimg>
+         <Thrhom></Thrhom>
  </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Navone from '../components/home/navone/Navone'
 import Two from '../components/home/navone/Two'
 import Twoimg from '../components/home/t-img/Twoimg'
+import Thrhom from '../components/home/three/Thrhom'
 
 
  export default {
@@ -20,7 +22,8 @@ import Twoimg from '../components/home/t-img/Twoimg'
    components: {
         Navone,
         Two,
-        Twoimg
+        Twoimg,
+        Thrhom
    },
    data () {
      return {

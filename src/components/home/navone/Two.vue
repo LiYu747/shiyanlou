@@ -94,6 +94,7 @@ export default {
   border-radius: 5px;
   font-size: 18px;
   background: white;
+  z-index: 9999;
 }
 .jay:hover {
   .none-box {
@@ -118,6 +119,7 @@ export default {
   font-size: 30px;
   position: relative;
   top: 8px;
-  left: -40px;
+  left: -40px
+  ;
 }
 </style>
